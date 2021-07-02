@@ -1,0 +1,95 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+header {
+    background: #2C3C49;
+    text-align: center;
+    margin: 0px;
+}
+
+.header__img {
+    max-width: 100%;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.header__p {
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding: 3px;
+}
+
+nav {
+    background-color: #563D7C;
+}
+
+.navbar__ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.navbar__ul li {
+    padding: 15px;
+}
+
+.navbar__ul li:hover {
+    color: #fff;
+    background-color: #FFAC66
+}
+
+.texto {
+    text-align: justify;
+    padding: 0 24px;
+}
+
+a {
+    text-decoration: none
+}
+
+.redes {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+a {
+    color: #fff;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+    display: inline-block;
+}
+
+.facebook {
+    background-image: url(img/facebook.png);
+}
+
+.instagram {
+    background-image: url(img/instagram.png);
+}
+
+.gmail {
+    background-image: url(img/gmail.png);
+}
+
+.programmer {
+    background-image: url(img/programmer.png);
+}
+
+footer {
+    background-color: #2C3C49;
+}
